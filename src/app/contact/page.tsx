@@ -8,7 +8,7 @@ export default function Contact(){
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-8 font-serif shadow-2xl text-green-700">Get In Touch</h1>
         <p className="text-lg text-center text-gray-600 max-w-2xl mx-auto mb-12">
-          We&apos;re here to answer any questions or concerns you may have. Feel free to reach out to us using the form below or via the provided contact details. We&apos;d love to hear from you!
+          We&#39;re here to answer any questions or concerns you may have. Feel free to reach out to us using the form below or via the provided contact details. We&#39;d love to hear from you!
         </p>
 
         {/* Contact Form */}
