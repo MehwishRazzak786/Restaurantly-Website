@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold text-green-700 m-auto shadow-2xl">We do not cook,</h1>
         <h2 className="text-4xl leading-[4rem] font-bold shadow-2xl">we create your..</h2>
         <h2 className="text-5xl font-semibold text-red-700 italic shadow-2xl">emotions!</h2>
-        <p className="max-w-md mt-6 text-gray-700">Welcome to <i><b>Restaurantly,</b></i>Your go-to place for delicious, hand-crafted meals that bring people together. Whether you're in the mood for a casual brunch or a gourmet dinner, we've got you covered with fresh ingredients and exceptional flavors.</p>
+        <p className="max-w-md mt-6 text-gray-700">Welcome to <i><b>Restaurantly,</b></i>Your go-to place for delicious, hand-crafted meals that bring people together. Whether you&apos;re in the mood for a casual brunch or a gourmet dinner, we&apos;ve got you covered with fresh ingredients and exceptional flavors.</p>
         <div className="flex items-center mt-7 gap-5">
           <button className="p-2 border-2 border-zinc-700 rounded-lg w-40 font-bold text-black hover:bg-red-700 hover:text-white transition duration-300"><Link href='/menu'>Explore Our Menu</Link></button>
           <button className="p-2 border-2 border-zinc-700 rounded-lg w-40 font-semibold text-black hover:bg-green-700 hover:text-white">

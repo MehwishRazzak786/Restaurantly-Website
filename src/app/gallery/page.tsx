@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Gallery(){
     // Array of gallery images with captions
   const galleryImages = [
@@ -26,9 +28,11 @@ export default function Gallery(){
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {galleryImages.map((item, index) => (
             <div key={index} className="bg-white rounded-lg shadow-xl overflow-hidden">
-              <img
+              <Image 
                 src={item.image}
                 alt={item.caption}
+                width={150}
+                height={192}
                 className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
               />
               <div className="p-4">

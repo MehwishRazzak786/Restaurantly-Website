@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export default function About() {
     return (
@@ -13,7 +14,7 @@ export default function About() {
                     <h1 className="text-4xl font-bold mb-4 font-serif mt-20">About Us</h1>
                     <p className="text-lg mb-6 max-w-3xl text-center">
                         Welcome to <span className="text-green-500 font-semibold">Restaurantly</span>, where every meal tells a story of passion, freshness, and flavor.
-                        Whether you're ordering online or dining in, we're here to provide an unforgettable culinary journey.
+                        Whether you&apos;re ordering online or dining in, we're here to provide an unforgettable culinary journey.
                     </p>
                     <p className="text-lg mb-6 max-w-3xl text-center">
                         At Restaurantly, we are driven by our love for food. We pride ourselves on serving dishes made from the finest ingredients, carefully crafted to satisfy every craving.
@@ -48,7 +49,7 @@ export default function About() {
                     </div>
                     {/* Right Side Image */}
                     <div className="flex justify-center">
-                        <img src="/images/chefs.jpg" alt="Our Story" className="w-full h-auto max-w-md rounded-lg shadow-lg" />
+                        <Image src="/images/chefs.jpg" alt="Our Story" width={500} height={600} className=" max-w-md rounded-lg shadow-lg" />
                     </div>
                 </div>
             </section>
