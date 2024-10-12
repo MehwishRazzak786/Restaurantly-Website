@@ -14,7 +14,7 @@ export default function About() {
                     <h1 className="text-4xl font-bold mb-4 font-serif mt-20">About Us</h1>
                     <p className="text-lg mb-6 max-w-3xl text-center">
                         Welcome to <span className="text-green-500 font-semibold">Restaurantly</span>, where every meal tells a story of passion, freshness, and flavor.
-                        Whether you&#39;re ordering online or dining in, we're here to provide an unforgettable culinary journey.
+                        Whether you&#39;re ordering online or dining in, we&#39;re here to provide an unforgettable culinary journey.
                     </p>
                     <p className="text-lg mb-6 max-w-3xl text-center">
                         At Restaurantly, we are driven by our love for food. We pride ourselves on serving dishes made from the finest ingredients, carefully crafted to satisfy every craving.
@@ -39,7 +39,7 @@ export default function About() {
                         <h3 className="text-2xl font-semibold mb-4 font-serif shadow-2xl">Our Journey</h3>
                         <p className="text-lg text-gray-700">
                             It all started with a simple idea: to create a space where people could come together to enjoy delicious food. From our humble beginnings,
-                            we've grown into a beloved dining destination, dedicated to serving our community and sharing our passion for food with the world.
+                            we&#39;ve grown into a beloved dining destination, dedicated to serving our community and sharing our passion for food with the world.
                         </p>
                         <h3 className="text-2xl font-extrabold mb-4 mt-6 font-serif shadow-2xl">Our Values</h3>
                         <p className="text-lg text-gray-700">

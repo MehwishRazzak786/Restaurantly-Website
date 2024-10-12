@@ -35,7 +35,7 @@ export default function Menu(){
                 <div className="p-4">
                   <h2 className="text-xl font-semibold mb-2 font-serif">{dish.name}</h2>
                   <p className="text-gray-600">
-                    A delicious and savory dish that's sure to satisfy your cravings.
+                    A delicious and savory dish that&#39;s sure to satisfy your cravings.
                   </p>
                 </div>
               </div>
